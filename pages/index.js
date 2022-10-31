@@ -73,6 +73,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className='w-full bg-white -mt-20 h-20'></div>
         <Footer />
       </div>
     </>
