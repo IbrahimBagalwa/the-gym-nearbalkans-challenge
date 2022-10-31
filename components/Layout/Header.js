@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <>
       <nav className='bg-white fixed top-0 z-[99] w-full'>
-        <div className='flex items-center my-[1.567rem] md:pl-20 md:pr-20 pr-8 pl-8 lg:pr-20 ld:pl-20 container mx-auto'>
+        <div className='flex items-center my-[1.567rem] md:pl-20 md:pr-20 pr-8 pl-8 lg:pr-24- lg:px-24 ld:pl-24- container mx-auto'>
           <div className='text-color flex items-center justify-center'>
             <Link href='#'>
               <div className='flex items-center'>
