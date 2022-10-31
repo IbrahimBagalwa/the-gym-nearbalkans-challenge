@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <div className='w-full bg-white mt-5 relative'>
+    <div className='w-full bg-white mt-5  relative'>
       <div className='text-lg mx-auto text-color py-4'>
         <h6 className='text-center'>
           Visit{' '}
@@ -169,7 +169,7 @@ export default function Footer() {
           </Link>
         </div>
       </div>
-      <h6 className='pt-8 text-center text-lg pb-10'>
+      <h6 className='pt-8 text-center text-lg pb-20'>
         NEAR Balkans Hub: Bosnia &amp; Herzegovina, Bulgaria, Croatia,
         Montenegro, North Macedonia, <br /> Serbia, and Slovenia
       </h6>

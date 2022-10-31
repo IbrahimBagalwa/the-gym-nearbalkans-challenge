@@ -80,6 +80,7 @@ export default function CompleteCourse() {
         <h1 className='text-op font-medium text-2xl lg:text-4xl leading-[44px] tracking-[-0.02em] relative text-center md:text-left'>
           Complete the course
           <div className='absolute top-[0] -mt-[38%] -left-[24%] hidden lg:block'>
+            <div class='claim-gradient top-[100%] right-[140%] absolute h-[490px] w-[480px] z-0 hidden lg:block'></div>
             <svg
               width='164'
               height='132'
