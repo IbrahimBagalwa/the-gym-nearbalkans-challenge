@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
+}
+.text-gradient {
+  background: -webkit-linear-gradient(#9092fb, #86b5ef, #7bdde2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.border-col {
+  --tw-border-opacity: 1;
+  border-color: rgb(63 66 70 / var(--tw-border-opacity));
+}
+.bg-blur {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #7bdde2 0,
+    rgba(127, 208, 231, 0) 100%
+  );
+  opacity: 0.9;
+  filter: blur(159.73px);
+}
