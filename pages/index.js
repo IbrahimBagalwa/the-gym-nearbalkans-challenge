@@ -11,8 +11,6 @@ export default function Home() {
     <>
       <Header />
       <div className='bg-white px-[23px] lg:px-0 font-global-font relative lg:pt-32 lg:mt-36 pt-12 h-[600px] lg:h-[500px] w-full'>
-        <div className='bg-page-gradient absolute lg:-top-[550px] -top-[520px] opacity-[0.4] left-0 lg:-left-48 h-[100%] w-[50%] z-50'></div>
-        <div className='bg-page-gradient absolute lg:-top-[550px] -top-[520px] opacity-[0.4] right-0 lg:right-0 h-[100%] w-[40%] z-50'></div>
         <Hero />
         <div
           id='learning'
@@ -59,12 +57,12 @@ export default function Home() {
           <Image src='/images/certification.png' width='670' height='500' />
         </div>
         <div className='w-full bg-white mx-auto container'>
-          <div class='lg:px-[148px] flex lg:flex-row flex-col-reverse justify-between items-center mt-[168px] mb-4'>
+          <div class='lg:px-[148px] flex lg:flex-row flex-col-reverse justify-between items-center mt-[168px]'>
             <div class='relative text-center lg:text-left'>
               <h1 class='text-title-color font-medium text-2xl lg:text-4xl leading-[44px] tracking-[-0.02em]'>
                 NEAR Development 101
               </h1>
-              <div class='bg-blur w-[1067px] h-[240px] top-[5%] -left-[15%] absolute hidden lg:block'></div>
+              <div class='bg-blur w-[1067px] h-[280px] top-[5%] -left-[15%] absolute hidden lg:block'></div>
               <Button
                 title='Start The Course'
                 classNameStyle='font-normal relative z-10 text-dark-100 text-base leading-[17.6px] mt-4 text-secondary border-secondary  focus:outline-none cursor-pointer leading-4 transition-250ms w-fit border-accent border-solid border rounded-full px-5 py-3 rounded-4xl inline-block'

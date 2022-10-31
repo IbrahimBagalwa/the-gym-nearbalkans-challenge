@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <div className='w-full bg-white mt-20'>
+    <div className='w-full bg-white mt-5 relative'>
       <div className='text-lg mx-auto text-color py-4'>
         <h6 className='text-center'>
           Visit{' '}
@@ -134,7 +134,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div class='lg:flex justify-center gap-10 -pt-4'>
+      <div class='lg:flex justify-center gap-20 -pt-4 container w-[90%] mx-auto'>
         <div>
           <Link href='/' className='text-lg cursor-pointer text-center'>
             <p>
