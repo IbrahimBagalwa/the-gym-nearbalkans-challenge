@@ -7,8 +7,8 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <nav className='bg-white fixed top-0 z-[99] mx-auto- container- w-full'>
-        <div className='flex items-center my-[1.567rem] md:pl-20 md:pr-20 pr-8 pl-8 lg:pr-20 ld:pl-20'>
+      <nav className='bg-white fixed top-0 z-[99] w-full'>
+        <div className='flex items-center my-[1.567rem] md:pl-20 md:pr-20 pr-8 pl-8 lg:pr-20 ld:pl-20 container mx-auto'>
           <div className='text-color flex items-center justify-center'>
             <Link href='#'>
               <div className='flex items-center'>

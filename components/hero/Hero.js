@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Hero() {
   return (
-    <div className=' text-center lg:w-[910px] mx-auto'>
+    <div className=' text-center lg:w-[910px] mx-auto font-global-font'>
       <h1 className='lg:text-[72px] lg:w-full w-[200px] mx-auto font-medium text-[36px] text-title-color'>
         Get <span className='text-gradient'>NEAR</span> Certified!
       </h1>
